@@ -36,6 +36,3 @@ We had difficulty coordinating tasks since the strategy game project was Devin's
 
 ## What's next for DoNothing Games Co
 Devin started a hobby project he'd been wanting to start for a while and may continue working on it in the future.
-
-## What's next for Ruby on Rails
-Devin started a hobby project he'd been wanting to start for a while and may continue working on it in the future.
