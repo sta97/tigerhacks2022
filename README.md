@@ -20,6 +20,9 @@ Flappy Bird but St. Louis Bread Co themed
 
 ![stuart-bread-co](https://user-images.githubusercontent.com/55419983/200183259-ad02b3fc-167b-4225-8c3b-9de4f9715739.png)
 
+## Demo Video
+[https://www.youtube.com/watch?v=Xm2YmBqUShM](https://www.youtube.com/watch?v=Xm2YmBqUShM)
+
 ## How we built it
 The mini-games were built using Unity and C# scripting.
 The tank 3D model was made by Stuart using Blender.
