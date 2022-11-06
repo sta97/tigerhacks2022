@@ -1,4 +1,5 @@
 # tigerhacks2022
+# DoNothing Games Co
 
 ## Inspiration
 Our team was named "Ruby on Rails" at first because we originally thought of making a web application using Ruby on Rails using train API data ("Rails" would be fitting to the theme of transportation).
