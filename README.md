@@ -7,10 +7,12 @@ We did end up doing something and completely pivoted our project as one of our t
 ## What it does
 ### Mobile Arms
 Primary Hacker: Devin
+
 Turn-based strategy game
 
 ### BreadTravels
 Primary Hacker: Stuart
+
 Flappy Bird but St. Louis Bread Co themed
 
 ## How we built it
