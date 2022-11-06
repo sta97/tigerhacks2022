@@ -1,6 +1,8 @@
 # tigerhacks2022
 # DoNothing Games Co
 
+*Note:* Please look at the different branches for work on different mini-games. We didn't resolve the Git merge conflicts in time for submission.
+
 ## Inspiration
 Our team was named "Ruby on Rails" at first because we originally thought of making a web application using Ruby on Rails using train API data ("Rails" would be fitting to the theme of transportation).
 We did end up doing something and completely pivoted our project as one of our team members had an interest in making a strategy game, and our team decided to make small individual games for a microgame pack. So we rebranded to **DoNothing Games Co.**
