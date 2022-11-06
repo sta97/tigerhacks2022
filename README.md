@@ -1,7 +1,7 @@
 # tigerhacks2022
 
 ## Inspiration
-Our team was named Ruby on Rails at first because we originally thought of making a web application using Ruby on Rails using train API data ("Rails" would be fitting to the theme of transportation).
+Our team was named "Ruby on Rails" at first because we originally thought of making a web application using Ruby on Rails using train API data ("Rails" would be fitting to the theme of transportation).
 We did end up doing something and completely pivoted our project as one of our team members had an interest in making a strategy game, and our team decided to make small individual games for a microgame pack. So we rebranded to **DoNothing Games Co.**
 
 ## What it does
@@ -10,10 +10,14 @@ Primary Hacker: Devin
 
 Turn-based strategy game
 
+![devin-tank-game](https://user-images.githubusercontent.com/55419983/200183246-81991bfc-623f-4d58-b980-26465876234d.png)
+
 ### BreadTravels
 Primary Hacker: Stuart
 
 Flappy Bird but St. Louis Bread Co themed
+
+![stuart-bread-co](https://user-images.githubusercontent.com/55419983/200183259-ad02b3fc-167b-4225-8c3b-9de4f9715739.png)
 
 ## How we built it
 The mini-games were built using Unity and C# scripting.
