@@ -16,6 +16,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -78,4 +90,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b040310b9eff241bfcb96e3bb2f4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlight: {fileID: 0}
+  highlight: {fileID: 3575007614190059572}
+  isWalkable: 0
+  OccupiedUnit: {fileID: 0}
+--- !u!1 &3575007614190059572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1788297510890128817, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+  m_PrefabInstance: {fileID: 2976234384363865477}
+  m_PrefabAsset: {fileID: 0}

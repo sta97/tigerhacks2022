@@ -16,6 +16,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -84,3 +96,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlight: {fileID: 2794286699028782835}
+  isWalkable: 0
+  OccupiedUnit: {fileID: 0}

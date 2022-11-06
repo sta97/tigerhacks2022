@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2C0EB526-4A9F-8CD8-7984-59985CF62208}</ProjectGuid>
+    <ProjectGuid>{51E02560-82BD-A190-E000-385063ED2766}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,10 +56,18 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Grass.cs" />
-    <Compile Include="Assets\Scripts\Tile.cs" />
-    <Compile Include="Assets\Scripts\Mountain.cs" />
-    <Compile Include="Assets\Scripts\GridManager.cs" />
+    <Compile Include="Assets\Scripts\Tiles\Grass.cs" />
+    <Compile Include="Assets\Scripts\Managers\UnitManager.cs" />
+    <Compile Include="Assets\Scripts\Tiles\Tile.cs" />
+    <Compile Include="Assets\Scripts\Units\ScriptableUnits.cs" />
+    <Compile Include="Assets\Scripts\Tiles\Mountain.cs" />
+    <Compile Include="Assets\Scripts\Units\Heroes\Hero1.cs" />
+    <Compile Include="Assets\Scripts\Units\BaseUnit.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Units\Enemies\BaseEnemy.cs" />
+    <Compile Include="Assets\Scripts\Units\Heroes\BaseHero.cs" />
+    <Compile Include="Assets\Scripts\Units\Enemies\Enemy1.cs" />
+    <Compile Include="Assets\Scripts\Managers\GridManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -683,8 +691,14 @@
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -727,6 +741,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
