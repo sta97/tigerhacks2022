@@ -61,6 +61,7 @@
     <Compile Include="Assets\Tilemap implementation\Scripts\Movement.cs" />
     <Compile Include="Assets\Tilemap implementation\Scripts\Unit.cs" />
     <Compile Include="Assets\Tilemap implementation\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Tilemap implementation\Scripts\CanvasPages.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

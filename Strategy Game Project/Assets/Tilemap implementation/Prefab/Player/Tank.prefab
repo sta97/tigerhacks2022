@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5071744195886363653}
   - component: {fileID: 8200403928240339872}
   - component: {fileID: 6208591028063784810}
-  - component: {fileID: 7113278656901883717}
+  - component: {fileID: 7813990151943308007}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -88,7 +88,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7113278656901883717
+--- !u!114 &7813990151943308007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,3 +101,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: 5
+  vehicle: 0

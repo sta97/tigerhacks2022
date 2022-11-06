@@ -10,8 +10,9 @@ public class Tile : MonoBehaviour
     [SerializeField] public terrain type;
     [SerializeField] private bool isWalkable;
     [SerializeField] private bool isFlyable;
-    [SerializeField] public GameObject occupier;
+    [SerializeField] private GameObject occupier;
     [SerializeField] private bool occupied;
+
 
     Unit unitScript;
 
@@ -20,11 +21,41 @@ public class Tile : MonoBehaviour
     void OnMouseEnter()
     {
         highlight.SetActive(true);
+
+        if (occupier!=null)
+        {
+            GameObject unit = occupier.transform.GetChild(0).gameObject;
+            unitScript = unit.GetComponent<Unit>();
+            if (unitScript.vehicle == Vehicle.tank)
+            {
+                Camera cam = unitScript.cam;
+                CanvasPages canvasPages = cam.gameObject.GetComponent<CanvasPages>();
+                canvasPages.basic.SetActive(false);
+                canvasPages.Helicopter.SetActive(false);
+                canvasPages.Tank.SetActive(true);
+            }
+            if (unitScript.vehicle == Vehicle.helicopter)
+            {
+                Camera cam = unitScript.cam;
+                CanvasPages canvasPages = cam.gameObject.GetComponent<CanvasPages>();
+                canvasPages.basic.SetActive(false);
+                canvasPages.Tank.SetActive(false);
+                canvasPages.Helicopter.SetActive(true);
+            }
+        }
     }
 
     void OnMouseExit()
     {
         highlight.SetActive(false);
+        if (occupier != null)
+        {
+            Camera cam = unitScript.cam;
+            CanvasPages canvasPages = cam.gameObject.GetComponent<CanvasPages>();
+            canvasPages.basic.SetActive(true);
+            canvasPages.Helicopter.SetActive(false);
+            canvasPages.Tank.SetActive(false);
+        }
     }
 
     void OnMouseDown()
