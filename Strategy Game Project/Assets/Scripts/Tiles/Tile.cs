@@ -10,16 +10,9 @@ public class Tile : MonoBehaviour
     public BaseUnit OccupiedUnit;
     public bool Walkable => isWalkable && OccupiedUnit == null;
 
-    // Start is called before the first frame update
-    void Start()
+    public virtual void Init(int x, int y)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void OnMouseEnter()
@@ -30,5 +23,26 @@ public class Tile : MonoBehaviour
     void OnMouseExit()
     {
         highlight.SetActive(false);
+    }
+
+    /*void OnMouseDown()
+    {
+        if (GameManager.Instance.GameState != GameState.HeroesTurn) return;
+
+        if (OccupiedUnit != null)
+        {
+            if(OccupiedUnit.Faction == Faction.Hero)
+            {
+
+            }
+        }
+    }*/
+
+    public void SetUnit(BaseUnit unit)
+    {
+        if (unit.OccupiedTile != null) unit.OccupiedTile.OccupiedUnit = null;
+        unit.transform.position = transform.position;
+        OccupiedUnit = unit;
+        unit.OccupiedTile = this;
     }
 }

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 654360170785036394, guid: add3f56ded116f34fba7295dd866894d, type: 3}
+      propertyPath: isWalkable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1845246865838282313, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_Name
       value: Grass Tile
@@ -17,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_LocalScale.y
@@ -25,7 +29,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3727557038289113005, guid: add3f56ded116f34fba7295dd866894d, type: 3}
       propertyPath: m_LocalPosition.x
