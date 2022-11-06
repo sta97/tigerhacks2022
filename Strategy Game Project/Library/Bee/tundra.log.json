@@ -449,7 +449,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","enqueuedNodeIndex":448,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
 {"msg":"nodeRetryBuild","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":337}
 {"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":337}
-{"msg":"noderesult","processed_node_count":444,"number_of_nodes_ever_queued":448,"annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":337,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.dll"}
+{"msg":"noderesult","processed_node_count":444,"number_of_nodes_ever_queued":448,"annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":337,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.dll","stdout":"Assets\\Tilemap implementation\\Scripts\\Movement.cs(9,27): warning CS0414: The field 'Movement.moving' is assigned but its value is never used"}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":446,"changes":[{"key":"InputFileList","value":["Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":446}
 {"msg":"noderesult","processed_node_count":445,"number_of_nodes_ever_queued":448,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":446,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.pdb"}
