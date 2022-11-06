@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Units\Heroes\BaseHero.cs" />
     <Compile Include="Assets\Scripts\Units\Enemies\Enemy1.cs" />
     <Compile Include="Assets\Scripts\Managers\GridManager.cs" />
+    <Compile Include="Assets\TileTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

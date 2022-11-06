@@ -367,6 +367,7 @@
 "Assets/Scripts/Units/Heroes/BaseHero.cs"
 "Assets/Scripts/Units/Heroes/Hero1.cs"
 "Assets/Scripts/Units/ScriptableUnits.cs"
+"Assets/TileTest.cs"
 -langversion:9.0
 
 /deterministic
