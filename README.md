@@ -1,8 +1,8 @@
 # tigerhacks2022
 
 ## Inspiration
-Our team was named Ruby on Rails because we originally thought of making a web application using Ruby on Rails using train API data ("Rails" would be fitting to the theme of transportation).
-We did end up doing something and completely pivoted our project as one of our team members had an interest in making a strategy game, and our team decided to make small individual games for a microgame pack. 
+Our team was named Ruby on Rails at first because we originally thought of making a web application using Ruby on Rails using train API data ("Rails" would be fitting to the theme of transportation).
+We did end up doing something and completely pivoted our project as one of our team members had an interest in making a strategy game, and our team decided to make small individual games for a microgame pack. So we rebranded to **DoNothing Games Co.**
 
 ## What it does
 ### Mobile Arms
@@ -25,10 +25,17 @@ Our team had the mutual understanding that none of us needed to be pressured for
 We had difficulty coordinating tasks since the strategy game project was Devin's initiative and it was difficult to know how to approach building game components without a clear direction for the game.
 
 ## Accomplishments that we're proud of
-Making a project over the weekend. Having fun and participating in events.
+- Making a project over the weekend! 
+- Having fun and participating in events.
 
 ## What we learned
+- Sometimes Unity doesn't make things simpler. 
+- It's very helpful to have a plan for a project and the "project manager" role for a team can be significant in how a team coordinates.
+- Going several steps into a process when one of the early steps had a problem can cause a significant time loss.
+- Unity has a [Tilemap](https://docs.unity3d.com/Manual/class-Tilemap.html) package!
 
+## What's next for DoNothing Games Co
+Devin started a hobby project he'd been wanting to start for a while and may continue working on it in the future.
 
 ## What's next for Ruby on Rails
 Devin started a hobby project he'd been wanting to start for a while and may continue working on it in the future.
