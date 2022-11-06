@@ -40,6 +40,9 @@ Flappy Bird but St. Louis Bread Co themed
 - Sometimes Unity doesn't make things simpler. 
 - It's very helpful to have a plan for a project and the "project manager" role for a team can be significant in how a team coordinates.
 - Going several steps into a process when one of the early steps had a problem can cause a significant time loss.
+- It's fun to work in-person together on projects.
+- Hackathons are great for motivation to build things, but it may be hard to focus on doing homework if you're at one.
+- Sometimes it's more efficient to let queues shrink before adding more entities to them. As in waiting in the food lines. But that comes with the trade-off of the possibility of the desired resource being exhausted.
 - Unity has a [Tilemap](https://docs.unity3d.com/Manual/class-Tilemap.html) package!
 
 ## What's next for DoNothing Games Co
